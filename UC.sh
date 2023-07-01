@@ -15,6 +15,3 @@ sudo sysctl -p
 
 # Wyczyszczenie cache serwera
 sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
-
-# Restart serwera
-sudo reboot
